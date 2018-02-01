@@ -1,0 +1,44 @@
+{
+  "name": "firstStack",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "flow": "node_modules/.bin/flow",
+    "flow-stop": "node_modules/.bin/flow stop",
+    "storybook": "storybook start -p 7007"
+  },
+  "dependencies": {
+    "appcenter": "^1.1.0",
+    "appcenter-analytics": "^1.1.0",
+    "appcenter-crashes": "^1.1.0",
+    "native-base": "^2.3.7",
+    "react": "16.2.0",
+    "react-native": "0.52.2",
+    "react-native-code-push": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.16.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.6.1",
+    "flow-bin": "^0.61.0",
+    "jest": "22.1.4",
+    "prettier": "^1.10.2",
+    "react-test-renderer": "16.2.0",
+    "@storybook/react-native": "^3.3.11",
+    "@storybook/addon-actions": "^3.3.11",
+    "@storybook/addon-links": "^3.3.11",
+    "@storybook/addons": "^3.3.11",
+    "babel-core": "^6.26.0",
+    "react-dom": "16.2.0",
+    "prop-types": "^15.6.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
